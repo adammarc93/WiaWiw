@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>15.01.2018 01:28:38</xs:documentation>
+    <xs:documentation>19.01.2018 10:42:03</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -841,6 +841,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -1537,6 +1538,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -2314,6 +2316,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -2759,6 +2762,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -3113,6 +3117,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -3798,6 +3803,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -4220,6 +4226,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -4595,6 +4602,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -4944,6 +4952,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -5239,6 +5248,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -5883,6 +5893,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -6383,6 +6394,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -6860,6 +6872,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -7393,6 +7406,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -7768,6 +7782,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -8143,6 +8158,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -8558,6 +8574,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -8933,6 +8950,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -9439,6 +9457,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -9849,6 +9868,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -10188,6 +10208,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -10664,6 +10685,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -11116,6 +11138,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -11686,6 +11709,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -12214,6 +12238,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -12775,6 +12800,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -13544,6 +13570,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -13820,6 +13847,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -14096,6 +14124,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -14372,6 +14401,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -14648,6 +14678,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -14924,6 +14955,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -15200,6 +15232,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -15476,6 +15509,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -15967,6 +16001,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -16270,6 +16305,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -16546,6 +16582,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -16822,6 +16859,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -17098,6 +17136,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -17414,6 +17453,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -17711,6 +17751,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -18065,6 +18106,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -18381,6 +18423,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -18769,6 +18812,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -19045,6 +19089,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -19572,10 +19617,23 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
+            <xs:enumeration value="@id/AvTempoTextView" />
             <xs:enumeration value="@id/BeaTextView" />
+            <xs:enumeration value="@id/DisTextView" />
+            <xs:enumeration value="@id/ExitButton" />
+            <xs:enumeration value="@id/linearLayout1" />
             <xs:enumeration value="@id/LocTextView" />
             <xs:enumeration value="@id/map" />
             <xs:enumeration value="@id/MapButton" />
+            <xs:enumeration value="@id/PositionButton" />
+            <xs:enumeration value="@id/StartButton" />
+            <xs:enumeration value="@id/tableLayout1" />
+            <xs:enumeration value="@id/tableLayout2" />
+            <xs:enumeration value="@id/tableRow1" />
+            <xs:enumeration value="@id/tableRow2" />
+            <xs:enumeration value="@id/tableRow3" />
+            <xs:enumeration value="@id/tableRow4" />
+            <xs:enumeration value="@id/TimeTextView" />
             <xs:enumeration value="@id/VelTextView" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
@@ -19651,6 +19709,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -20071,6 +20130,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -20442,6 +20502,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -21068,6 +21129,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -21462,6 +21524,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -21898,6 +21961,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -22294,6 +22358,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -22586,6 +22651,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -23323,6 +23389,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -23743,6 +23810,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -24878,6 +24946,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -25166,6 +25235,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -25515,6 +25585,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -25831,6 +25902,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -26107,6 +26179,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -26383,6 +26456,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -26659,6 +26733,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -26935,6 +27010,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -27802,6 +27878,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -28116,6 +28193,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -28491,6 +28569,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -29259,6 +29338,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -29653,6 +29733,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -30164,6 +30245,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -30571,6 +30653,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -30847,6 +30930,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -31723,6 +31807,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -31999,6 +32084,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -32275,6 +32361,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -32551,6 +32638,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -33007,6 +33095,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -33283,6 +33372,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -33749,6 +33839,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -34046,6 +34137,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -34400,6 +34492,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -35194,6 +35287,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -35784,6 +35878,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -36197,6 +36292,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -37456,6 +37552,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -37805,6 +37902,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -38193,6 +38291,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -38549,6 +38648,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -38825,6 +38925,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -39141,6 +39242,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -39417,6 +39519,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -39905,6 +40008,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -40202,6 +40306,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -40577,6 +40682,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -40952,6 +41058,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -41327,6 +41434,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -41681,6 +41789,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -41984,6 +42093,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -42260,6 +42370,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -42536,6 +42647,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -42812,6 +42924,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -43088,6 +43201,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -43602,6 +43716,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -43878,6 +43993,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -44154,6 +44270,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -45367,6 +45484,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -46339,6 +46457,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -46807,6 +46926,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -47693,6 +47813,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -48195,6 +48316,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -48487,6 +48609,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -48763,6 +48886,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -49060,6 +49184,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -49435,6 +49560,7 @@
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_disabled" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_focused" />
             <xs:enumeration value="@color/common_plus_signin_btn_text_light_pressed" />
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -49841,6 +49967,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />
@@ -50117,6 +50244,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@drawable/bluedot01" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_disabled" />

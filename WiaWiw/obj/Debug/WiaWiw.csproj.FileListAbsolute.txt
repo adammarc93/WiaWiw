@@ -49,5 +49,6 @@ C:\Users\Adam\documents\visual studio 2015\Projects\WiaWiw\WiaWiw\bin\Debug\Micr
 C:\Users\Adam\documents\visual studio 2015\Projects\WiaWiw\WiaWiw\bin\Debug\Mono.CSharp.dll.mdb
 C:\Users\Adam\documents\visual studio 2015\Projects\WiaWiw\WiaWiw\obj\Debug\android\assets\Microsoft.CSharp.dll.mdb
 C:\Users\Adam\documents\visual studio 2015\Projects\WiaWiw\WiaWiw\obj\Debug\android\assets\Mono.CSharp.dll.mdb
+C:\Users\Adam\documents\visual studio 2015\Projects\WiaWiw\WiaWiw\obj\Debug\res\drawable\bluedot01.png
 C:\Users\Adam\documents\visual studio 2015\Projects\WiaWiw\WiaWiw\obj\Debug\WiaWiw.dll.mdb
 C:\Users\Adam\documents\visual studio 2015\Projects\WiaWiw\WiaWiw\bin\Debug\WiaWiw.dll.mdb

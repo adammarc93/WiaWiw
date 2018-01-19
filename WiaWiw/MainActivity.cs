@@ -1,7 +1,7 @@
 ﻿using Android.App;
-using Android.Widget;
-using Android.OS;
 using Android.Content;
+using Android.OS;
+using Android.Widget;
 
 namespace WiaWiw
 {
@@ -20,6 +20,12 @@ namespace WiaWiw
             {
                 var intent = new Intent(this, typeof(MapActivity));
                 StartActivity(intent);
+            };
+
+            Button exitButton = FindViewById<Button>(Resource.Id.ExitButton);
+            exitButton.Click += (sender, e) =>
+            {
+                System.Environment.Exit(0);
             };
         }
     }

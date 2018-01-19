@@ -5,28 +5,109 @@
     android:layout_height="match_parent"
     android:minWidth="25px"
     android:minHeight="25px">
-<!--Location-->
-    <TextView
-        android:inputType="numberDecimal"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout2">
+            <TableRow
+                android:id="@+id/tableRow1">
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:weightSum="3">
+            <!--Location-->
+                <TextView
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/LocTextView"
+                    android:text="Pozycja:"
+                    android:layout_weight="2" />
+            <!--Distance-->
+                <TextView
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DisTextView"
+                    android:text="Dystans: "
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:weightSum="3">
+            <!--Bearing-->
+                <TextView
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/BeaTextView"
+                    android:text="Kierunek:"
+                    android:layout_weight="2" />
+            <!--Time-->
+                <TextView
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TimeTextView"
+                    android:text="Czas: "
+                    android:layout_weight="1" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:weightSum="3">
+            <!--Velocity-->
+                <TextView
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/VelTextView"
+                    android:text="Prędkość:"
+                    android:layout_weight="2" />
+            <!--Average Tempo-->
+                <TextView
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/AvTempoTextView"
+                    android:text="Średnie tempo: "
+                    android:layout_weight="1" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/LocTextView"
-        android:text="Pozycja:" />
-<!--Velocity-->
-    <TextView
-        android:inputType="numberDecimal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/VelTextView"
-        android:text="Prędkość:" />
-<!--Bearing-->
-    <TextView
-        android:inputType="numberDecimal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/BeaTextView"
-        android:text="Kierunek:" />
-<!--Map Fragment-->
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:weightSum="5">
+            <Button
+                android:text="Start"
+                android:id="@+id/StartButton"
+                android:layout_weight="4"
+                android:layout_width="wrap_content" />
+            <Button
+                android:id="@+id/PositionButton"
+                android:layout_weight="1"
+                android:background="@drawable/bluedot01"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0.0dp"
+                android:layout_width="5dp"
+                android:layout_marginRight="3dp" />
+        </TableRow>
+    </TableLayout>
+<!--Map fragment-->
     <fragment
         android:id="@+id/map"
         android:layout_width="match_parent"
